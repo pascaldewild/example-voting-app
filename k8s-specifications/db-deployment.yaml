@@ -26,5 +26,5 @@ spec:
           name: db-data
       volumes:
       - name: db-data
-          persistentVolumeClaim:
-            claimName: db-pvc
+        persistentVolumeClaim:
+          claimName: db-pvc
